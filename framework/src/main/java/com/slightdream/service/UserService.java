@@ -1,6 +1,7 @@
 package com.slightdream.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.slightdream.domain.ResponseResult;
 import com.slightdream.domain.entity.User;
 
 
@@ -11,5 +12,11 @@ import com.slightdream.domain.entity.User;
  * @since 2023-03-06 19:38:55
  */
 public interface UserService extends IService<User> {
+
+    ResponseResult<User> userInfo();
+
+    ResponseResult updateUserInfo(User user);
+
+    ResponseResult register(User user);
 
 }

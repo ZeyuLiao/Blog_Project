@@ -1,5 +1,6 @@
 package com.slightdream.controller;
 
+import com.slightdream.constants.SystemConstants;
 import com.slightdream.domain.ResponseResult;
 import com.slightdream.domain.entity.Comment;
 import com.slightdream.service.CommentService;
@@ -14,8 +15,12 @@ public class CommentController {
     private CommentService commentService;
 
     @GetMapping("/commentList")
-    public ResponseResult commentList(Long articleId, Integer pageNum, Integer pageSize){
-        return commentService.commentList(articleId, pageNum, pageSize);
+    public ResponseResult commentList(Long articleId,Integer pageNum,Integer pageSize){
+        return commentService.commentList(SystemConstants.ARTICLE_COMMENT,articleId,pageNum,pageSize);
+    }
+    @GetMapping("/linkCommentList")
+    public ResponseResult linkCommentList(Integer pageNum,Integer pageSize){
+        return commentService.commentList(SystemConstants.LINK_COMMENT,null,pageNum,pageSize);
     }
 
     @PostMapping

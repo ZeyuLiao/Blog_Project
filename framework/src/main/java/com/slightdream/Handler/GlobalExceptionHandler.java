@@ -1,4 +1,4 @@
-package com.slightdream.exceptionHandler;
+package com.slightdream.Handler;
 
 import com.slightdream.domain.ResponseResult;
 import com.slightdream.enums.AppHttpCodeEnum;

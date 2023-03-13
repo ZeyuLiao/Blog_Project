@@ -1,4 +1,4 @@
-package com.slightdream.exceptionHandler;
+package com.slightdream.Handler;
 
 import com.alibaba.fastjson.JSON;
 import com.slightdream.domain.ResponseResult;

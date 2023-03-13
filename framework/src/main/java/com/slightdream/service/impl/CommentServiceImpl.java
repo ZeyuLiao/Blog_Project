@@ -8,11 +8,12 @@ import com.slightdream.domain.entity.Comment;
 import com.slightdream.domain.vo.CommentVo;
 import com.slightdream.domain.vo.PageVo;
 import com.slightdream.enums.AppHttpCodeEnum;
-import com.slightdream.exceptionHandler.SystemException;
+import com.slightdream.Handler.SystemException;
 import com.slightdream.mapper.CommentMapper;
 import com.slightdream.service.CommentService;
 import com.slightdream.service.UserService;
 import com.slightdream.utils.BeanCopyUtils;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
@@ -25,6 +26,7 @@ import java.util.List;
  * @author makejava
  * @since 2023-03-06 19:32:04
  */
+@Slf4j
 @Service("commentService")
 public class CommentServiceImpl extends ServiceImpl<CommentMapper, Comment> implements CommentService {
 
@@ -33,14 +35,15 @@ public class CommentServiceImpl extends ServiceImpl<CommentMapper, Comment> impl
 
 
     @Override
-    public ResponseResult commentList(Long articleId, Integer pageNum, Integer pageSize) {
+    public ResponseResult commentList(String commentType,Long articleId, Integer pageNum, Integer pageSize) {
         //查询对应文章的根评论
         LambdaQueryWrapper<Comment> queryWrapper = new LambdaQueryWrapper<>();
         //对articleId进行判断
         queryWrapper.eq(Comment::getArticleId, articleId);
         //根评论 rootId为-1
         queryWrapper.eq(Comment::getRootId, -1);
-
+        //评论类型
+        queryWrapper.eq(Comment::getType,commentType);
         //分页查询
         Page<Comment> page = new Page(pageNum, pageSize);
         page(page, queryWrapper);

@@ -12,7 +12,7 @@ import com.slightdream.domain.entity.Comment;
  * @since 2023-03-06 19:32:04
  */
 public interface CommentService extends IService<Comment> {
-    ResponseResult commentList(Long articleId, Integer pageNum, Integer pageSize);
+    ResponseResult commentList(String commentType,Long articleId, Integer pageNum, Integer pageSize);
 
     ResponseResult addComment(Comment comment);
 }

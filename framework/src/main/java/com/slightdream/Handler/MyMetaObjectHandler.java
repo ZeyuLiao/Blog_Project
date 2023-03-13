@@ -1,8 +1,7 @@
-package com.slightdream.utils;
+package com.slightdream.Handler;
 
-import com.baomidou.mybatisplus.annotation.FieldFill;
-import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.core.handlers.MetaObjectHandler;
+import com.slightdream.utils.SecurityUtils;
 import org.apache.ibatis.reflection.MetaObject;
 import org.springframework.stereotype.Component;
 
@@ -11,26 +10,6 @@ import java.util.Date;
 @Component
 
 public class MyMetaObjectHandler implements MetaObjectHandler {
-    /**
-     * 创建人的用户id
-     */
-    @TableField(fill = FieldFill.INSERT)
-    private Long createBy;
-    /**
-     * 创建时间
-     */
-    @TableField(fill = FieldFill.INSERT)
-    private Date createTime;
-    /**
-     * 更新人
-     */
-    @TableField(fill = FieldFill.INSERT_UPDATE)
-    private Long updateBy;
-    /**
-     * 更新时间
-     */
-    @TableField(fill = FieldFill.INSERT_UPDATE)
-    private Date updateTime;
 
     @Override
     public void insertFill(MetaObject metaObject) {
