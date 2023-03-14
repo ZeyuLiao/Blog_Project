@@ -25,5 +25,10 @@ public class SystemConstants
      * 友链状态为审核通过
      */
     public static final String  LINK_STATUS_NORMAL = "0";
+    /**
+     * 菜单类型（M目录 C菜单 F按钮）
+    * */
+    public static final String MENU = "M";
+    public static final String BUTTON = "F";
 
 }

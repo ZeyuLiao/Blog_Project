@@ -5,50 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ee2950d-08dc-4522-9f48-cc5a51130dfb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/admin/src/main/java/com/slightdream/BlogAdminApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/java/com/slightdream/config/JwtAuthenticationTokenFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/java/com/slightdream/config/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/java/com/slightdream/controller/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/java/com/slightdream/controller/TagController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/java/com/slightdream/controller/UploadController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/java/com/slightdream/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/java/com/slightdream/runner/UpdateViewCountJob.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/java/com/slightdream/runner/ViewCountRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/slightdream/domain/entity/Tag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/slightdream/mapper/TagMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/slightdream/service/LoginService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/slightdream/service/TagService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/slightdream/service/UploadService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/slightdream/service/impl/OssUploadService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/slightdream/service/impl/SystemLoginServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/slightdream/service/impl/TagServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/slightdream/utils/PathUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/slightdream/domain/entity/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/slightdream/domain/entity/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/slightdream/domain/vo/AdminUserInfoVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/slightdream/domain/vo/RoutersVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/slightdream/mapper/MenuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/slightdream/mapper/RoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/slightdream/service/MenuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/slightdream/service/RoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/slightdream/service/impl/MenuServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/slightdream/service/impl/RoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/resources/mapper/MenuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/resources/mapper/RoleMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/easyCodeTableSetting.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/easyCodeTableSetting.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/src/main/java/com/slightdream/BlogApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog/src/main/java/com/slightdream/BlogApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/src/main/java/com/slightdream/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog/src/main/java/com/slightdream/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/src/main/java/com/slightdream/controller/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog/src/main/java/com/slightdream/controller/ArticleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/src/main/java/com/slightdream/controller/CommentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog/src/main/java/com/slightdream/controller/CommentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/blog/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/framework/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/slightdream/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/java/com/slightdream/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/slightdream/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/java/com/slightdream/controller/LoginController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/framework/src/main/java/com/slightdream/constants/SystemConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework/src/main/java/com/slightdream/constants/SystemConstants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/src/main/java/com/slightdream/domain/entity/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework/src/main/java/com/slightdream/domain/entity/Article.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/src/main/java/com/slightdream/domain/entity/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework/src/main/java/com/slightdream/domain/entity/Comment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/src/main/java/com/slightdream/enums/AppHttpCodeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework/src/main/java/com/slightdream/enums/AppHttpCodeEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/src/main/java/com/slightdream/exceptionHandler/AccessDeniedHandlerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework/src/main/java/com/slightdream/Handler/AccessDeniedHandlerImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/src/main/java/com/slightdream/exceptionHandler/AuthenticationEntryPointImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework/src/main/java/com/slightdream/Handler/AuthenticationEntryPointImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/src/main/java/com/slightdream/exceptionHandler/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework/src/main/java/com/slightdream/Handler/GlobalExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/src/main/java/com/slightdream/exceptionHandler/SystemException.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework/src/main/java/com/slightdream/Handler/SystemException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/src/main/java/com/slightdream/mapper/ArticleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework/src/main/java/com/slightdream/mapper/ArticleMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/src/main/java/com/slightdream/service/ArticleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework/src/main/java/com/slightdream/service/ArticleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/src/main/java/com/slightdream/service/CommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework/src/main/java/com/slightdream/service/CommentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/src/main/java/com/slightdream/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework/src/main/java/com/slightdream/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/src/main/java/com/slightdream/service/impl/ArticleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework/src/main/java/com/slightdream/service/impl/ArticleServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/src/main/java/com/slightdream/service/impl/CommentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework/src/main/java/com/slightdream/service/impl/CommentServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/src/main/java/com/slightdream/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework/src/main/java/com/slightdream/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/src/main/java/com/slightdream/utils/MyMetaObjectHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework/src/main/java/com/slightdream/Handler/MyMetaObjectHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/src/main/java/com/slightdream/utils/RedisCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework/src/main/java/com/slightdream/utils/RedisCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/src/main/java/com/slightdream/service/LoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework/src/main/java/com/slightdream/service/LoginService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/src/main/java/com/slightdream/service/impl/SystemLoginServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework/src/main/java/com/slightdream/service/impl/SystemLoginServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +41,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="FxmlFile" />
       </list>
     </option>
   </component>
@@ -123,9 +100,15 @@
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.slightdream.domain.entity" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ZeyuLiao\IdeaProjects\Blog_Project\admin\src\main\java\com\slightdream" />
       <recent name="C:\Users\ZeyuLiao\IdeaProjects\Blog_Project\framework\src\main\java\com\slightdream\utils" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ZeyuLiao\IdeaProjects\Blog_Project\framework\src\main\resources\mapper" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.slightdream.config" />
@@ -199,7 +182,8 @@
       <workItem from="1678485089812" duration="9092000" />
       <workItem from="1678553919388" duration="1194000" />
       <workItem from="1678632274427" duration="8057000" />
-      <workItem from="1678737321363" duration="8560000" />
+      <workItem from="1678737321363" duration="14975000" />
+      <workItem from="1678756774909" duration="9151000" />
     </task>
     <servers />
   </component>
